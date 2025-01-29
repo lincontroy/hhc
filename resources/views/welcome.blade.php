@@ -260,30 +260,6 @@
     </div>
 </section>
 <!--Causes One End-->
-
-<!--Become Volunteer One Start-->
-<section class="become-volunteer-one">
-    <div class="become-volunteer-one__bg-box">
-        <div class="become-volunteer-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-            style="background-image: url(assets/images/resources/placeholder.png);"></div>
-    </div>
-    <div class="become-volunteer-one__shape-1"
-        style="background-image: url(assets/images/resources/placeholder.png);"></div>
-    <div class="container">
-        <div class="become-volunteer-one__inner">
-            <p class="become-volunteer-one__sub-title">Make a difference</p>
-            <h3 class="become-volunteer-one__title">Help us raise money for our humanitarian causes. Your generous donation can make a significant impact.
-            Donate.
-            </h3>
-            <div class="become-volunteer-one__btn-box">
-                <a href="" class="thm-btn become-volunteer-one__btn">Donate</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Become Volunteer One End-->
-
-
 <!--Feature One Start-->
 <section class="feature-one">
     <div class="container">

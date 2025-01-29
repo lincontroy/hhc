@@ -82,11 +82,9 @@
                 <div class="about-four__left">
                     <div class="about-four__img-box">
                         <div class="about-four__img">
-                            <img src="assets/images/resources/placeholder.png" alt="Elderly Fellowship">
+                            <img src="assets/images/resources/health.jpeg" alt="Elderly Fellowship">
                         </div>
-                        <div class="about-four__img-two">
-                            <img src="assets/images/resources/placeholder.png" alt="Elderly Sharing Moments">
-                        </div>
+                        
                         <div class="about-four__border"></div>
                     </div>
                 </div>
@@ -152,11 +150,9 @@
                 <div class="about-four__left">
                     <div class="about-four__img-box">
                         <div class="about-four__img">
-                            <img src="assets/images/resources/placeholder.png" alt="Medical Camp">
+                            <img src="assets/images/resources/health.jpeg" alt="Medical Camp">
                         </div>
-                        <div class="about-four__img-two">
-                            <img src="assets/images/resources/placeholder.png" alt="Community Health">
-                        </div>
+                        
                         <div class="about-four__border"></div>
                     </div>
                 </div>

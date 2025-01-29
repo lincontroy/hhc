@@ -142,7 +142,7 @@
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
                                         <li class="megamenu current megamenu-clickable megamenu-clickable--toggler">
-                                            <a href="/">Home</a>
+                                            <a href="{{url('/')}}">Home</a>
                                           
                                         </li>
                                         <li class="">
@@ -210,7 +210,7 @@
                             <div class="footer-widget__column footer-widget__links clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__links-list list-unstyled clearfix">
-                                <li><a href="/">Home</a></li>
+                                <li><a href="{{url('/')}}">Home</a></li>
                                     <li><a href="/about">About us</a></li>
                                     <li><a href="/whatwedo">What we do</a></li>
                                     <li><a href="/events">Events</a></li>
@@ -262,7 +262,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="#">Oxpins.com</a>
+                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/">Automation eye Limited</a>
                                 </p>
                             </div>
                         </div>
@@ -366,7 +366,4 @@
     <!-- template js -->
     <script src="assets/js/oxpins.js"></script>
 </body>
-
-
-<!-- Mirrored from pixydrops.com/oxpinshtml/main-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jan 2025 08:56:45 GMT -->
 </html>
