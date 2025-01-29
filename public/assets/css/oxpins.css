@@ -24,7 +24,7 @@
   --oxpins-gray-rgb: 111, 119, 117;
   --oxpins-white: #ffffff;
   --oxpins-white-rgb: 255, 255, 255;
-  --oxpins-base: #00715d;
+  --oxpins-base: #283734;
   --oxpins-base-rgb: 0, 113, 93;
   --oxpins-black: #283734;
   --oxpins-black-rgb: 40, 55, 52;
@@ -912,7 +912,7 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #90c8be;
+  color: #f9f4e8;
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;

@@ -16,77 +16,192 @@
             </div>
         </section>
 
+        <br>
 
-        <section class="container">
-        <div class="container py-5">
+
+   
+        <section class="about-four">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <!-- Fellowship Card -->
-                <div class="card shadow-lg border-light mb-4">
-                    <div class="card-header">
-                        <h4 class="card-title">Monthly Fellowship with the Elderly</h4>
-                        <p class="card-text">Every last Saturday of the month</p>
-                    </div>
-                    <div class="card-body">
-                        <p class="lead">
-                            We have a monthly fellowship with the elderly, held every last Saturday of the month. This fellowship offers a platform for the elderly to mingle and share warmth, love, and life experiences. During the fellowship, the following activities take place:
-                        </p>
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <strong>1. A platform for the elderly to mingle and share warmth and love of life experiences</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>2. Conversations on health and mental wellness</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>3. Sharing a cup of great porridge</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>4. Singing and sharing devotion</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>5. Sharing food packages</strong>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                        <p class="text-muted">Join us for this heartwarming event every month!</p>
+            <div class="col-xl-6">
+                <div class="about-four__left">
+                    <div class="about-four__img-box">
+                        <div class="about-four__img">
+                            <img src="assets/images/resources/health.jpeg" alt="Placeholder Event">
+                        </div>
+                        
                     </div>
                 </div>
-
-                <!-- Medical Camp Card -->
-                <div class="card shadow-lg border-light">
-                    <div class="card-header">
-                        <h4 class="card-title">Annual Medical Camp</h4>
-                        <p class="card-text">Every 1st Quarter of the year (April/May)</p>
+            </div>
+            <div class="col-xl-6">
+                <div class="about-four__right">
+                    <div class="section-title text-left">
+                        <span class="section-title__tagline">Health camp 2025</span>
+                        <h2 class="section-title__title">Join Us for the Health camp</h2>
                     </div>
-                    <div class="card-body">
-                        <p class="lead">
-                            Every year for the past 4 years, we host a major Medical Camp that serves the community with:
-                        </p>
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <strong>1. Free medical checks</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>2. Free consultations</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>3. Free screening</strong>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>4. Free treatment and medication</strong>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                        <p class="text-muted">Don't miss out on this life-saving event every year!</p>
-                    </div>
+                    <p class="about-four__text">
+                        Hellena hand of compassion brings you health camp 2025.
+                    </p>
+                    <ul class="list-unstyled about-four__points">
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Details about the event will be added here.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>More information coming soon.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Join us for a meaningful cause.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-        </section>
+</section>
+
+
+        <section class="about-four">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="about-four__left">
+                    <div class="about-four__img-box">
+                        <div class="about-four__img">
+                            <img src="assets/images/resources/placeholder.png" alt="Elderly Fellowship">
+                        </div>
+                        <div class="about-four__img-two">
+                            <img src="assets/images/resources/placeholder.png" alt="Elderly Sharing Moments">
+                        </div>
+                        <div class="about-four__border"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="about-four__right">
+                    <div class="section-title text-left">
+                        <span class="section-title__tagline">Monthly Fellowship with the Elderly</span>
+                        <h2 class="section-title__title">Sharing Warmth and Love</h2>
+                    </div>
+                    <p class="about-four__text">
+                        Every last Saturday of the month, we host a fellowship for the elderly, providing a platform for them to connect, share life experiences, and enjoy the warmth of community. 
+                        This event is filled with meaningful conversations, health and wellness discussions, and moments of joy.
+                    </p>
+                    <ul class="list-unstyled about-four__points">
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>A platform for the elderly to mingle and share warmth and love of life experiences.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Conversations on health and mental wellness.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Sharing a cup of great porridge and food packages.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Singing and sharing devotion.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<br>
+
+<section class="about-four">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="about-four__left">
+                    <div class="about-four__img-box">
+                        <div class="about-four__img">
+                            <img src="assets/images/resources/placeholder.png" alt="Medical Camp">
+                        </div>
+                        <div class="about-four__img-two">
+                            <img src="assets/images/resources/placeholder.png" alt="Community Health">
+                        </div>
+                        <div class="about-four__border"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="about-four__right">
+                    <div class="section-title text-left">
+                        <span class="section-title__tagline">Annual Medical Camp</span>
+                        <h2 class="section-title__title">Serving the Community</h2>
+                    </div>
+                    <p class="about-four__text">
+                        For the past four years, we have hosted an annual medical camp in the first quarter of the year (April/May). 
+                        This event provides free medical checks, consultations, screenings, treatments, and medications to those in need, ensuring better health for our community.
+                    </p>
+                    <ul class="list-unstyled about-four__points">
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Free medical checks and consultations.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Free screenings for various health conditions.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="text">
+                                <p>Free treatment and medication for attendees.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!--Page Header End-->
 
 <!--Causes One End-->
