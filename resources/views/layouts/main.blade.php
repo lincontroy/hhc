@@ -158,11 +158,11 @@
                                            
                                         </li>
                                         <li class="">
-                                            <a href="#">Correspondence</a>
+                                            <a href="/correspondence">Correspondence</a>
                                           
                                         </li>
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a href="/contact">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
