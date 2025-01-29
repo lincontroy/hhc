@@ -150,11 +150,11 @@
                                             
                                         </li>
                                         <li class="">
-                                            <a href="#">What we do</a>
+                                            <a href="/whatwedo">What we do</a>
                                             
                                         </li>
                                         <li class="">
-                                            <a href="#">Events</a>
+                                            <a href="/events">Events</a>
                                            
                                         </li>
                                         <li class="">
@@ -210,10 +210,14 @@
                             <div class="footer-widget__column footer-widget__links clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__links-list list-unstyled clearfix">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                <li><a href="/">Home</a></li>
+                                    <li><a href="/about">About us</a></li>
+                                    <li><a href="/whatwedo">What we do</a></li>
+                                    <li><a href="/events">Events</a></li>
+                                    <li><a href="/correspondence">Correspondence</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                     
-                                    <li><a href="donation.html">Donations</a></li>
+                                    <li><a href="/donate">Donate</a></li>
                                 </ul>
                             </div>
                         </div>

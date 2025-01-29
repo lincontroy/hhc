@@ -40,7 +40,7 @@
                                 <p class="main-slider__sub-title">Caring and Compasion</p>
                                 <h2 class="main-slider__title">Caring for the vulnerable children in the society</h2>
                                 <div class="main-slider__btn-box">
-                                    <a href="" class="thm-btn main-slider__btn"> Discover more</a>
+                                    <a href="" class="thm-btn main-slider__btn"> Donate</a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                 <p class="main-slider__sub-title">The elderly in the society</p>
                                 <h2 class="main-slider__title">Caring for the elderly in the society</h2>
                                 <div class="main-slider__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider__btn"> Discover more</a>
+                                    <a href="about.html" class="thm-btn main-slider__btn"> Donate</a>
                                 </div>
                             </div>
                         </div>
