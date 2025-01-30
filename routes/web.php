@@ -23,6 +23,10 @@ Route::get('/correspondence', function () {
     return view('correspondence');
 });
 
+Route::get('/gallery',function(){
+    return view('gallery');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });

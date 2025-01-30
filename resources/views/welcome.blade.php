@@ -125,13 +125,10 @@
             <div class="col-xl-6">
                 <div class="">
                     <div class="section-title text-left">
-                        <span class="section-title__tagline">About Hellena hand of compasion</span>
+                        <span class="section-title__tagline">IMPACTING ONE LIFE AT A TIME</span>
 
                     </div>
-                    <p class="about-one__text">Hellena Hands of Compassion is a beacon of hope, dedicated to
-                        transforming lives and uplifting communities through compassion and unwavering support. Our
-                        mission revolves around making a lasting difference in the lives of the vulnerable and
-                        underserved in society.</p>
+                    <p class="about-one__text">Hellena Hand of compassion, is a registered organization, that has been running missions and outreach programs working to heal, and uplift communities’ Working with the vulnerable children, elderly and youth in the community, Impacting one Life at a Time.</p>
                     
                  
                 </div>
@@ -153,7 +150,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/child.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Children</p>
                         </div>
@@ -172,7 +169,7 @@
              <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/eld.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Elderlies</p>
                         </div>
@@ -188,7 +185,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/youth.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Youth</p>
                         </div>
@@ -208,9 +205,9 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/rehab.jpeg" alt="">
                         <div class="causes-one__cat">
-                            <p>Children</p>
+                            <p>Counseling</p>
                         </div>
                     </div>
                     <div class="causes-one__content">
@@ -227,9 +224,9 @@
              <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/rfp.jpeg" alt="">
                         <div class="causes-one__cat">
-                            <p>Elderlies</p>
+                            <p>Funds</p>
                         </div>
                     </div>
                     <div class="causes-one__content">
@@ -243,9 +240,9 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/dev.jpeg" alt="">
                         <div class="causes-one__cat">
-                            <p>Youth</p>
+                            <p>Development</p>
                         </div>
                     </div>
                     <div class="causes-one__content">

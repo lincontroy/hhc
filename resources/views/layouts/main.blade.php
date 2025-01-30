@@ -113,7 +113,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p>Send email</p>
-                                                    <h5><a href="mailto:info@hhcompassion.org">info@hhcompassion.org
+                                                    <h5><a href="mailto:hmcc.missions@gmail.com">hmcc.missions@gmail.com
                                                     </a>
                                                     </h5>
                                                 </div>
@@ -158,7 +158,7 @@
                                            
                                         </li>
                                         <li class="">
-                                            <a href="/correspondence">Correspondence</a>
+                                            <a href="/correspondence">Gallery</a>
                                           
                                         </li>
                                         <li>
@@ -201,7 +201,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__about-logo">
-                                    <a href=""><img src="assets/images/resources/log.png" width="100" height="50" alt=""></a>
+                                    <a href=""><img src="assets/images/resources/log.png" width="150" height="100" alt=""></a>
                                 </div>
                                
                             </div>
@@ -234,7 +234,7 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="text">
-                                            <p><a href="mailto:info@hhcompassion.org">info@hhcompassion.org</a></p>
+                                            <p><a href="mailto:info@hhcompassion.org">info@hhcompassion.org/hmcc.missions@gmail.com</a></p>
                                         </div>
                                     </li>
                                     <li>
@@ -283,7 +283,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/log.png" width="143"
+                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/log.png" width="150"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -293,7 +293,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:info@hhcompassion.org">info@hhcompassion.org</a>
+                    <a href="mailto:hmcc.missions@gmail.com">info@hhcompassion.org/hmcc.missions@gmail.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
