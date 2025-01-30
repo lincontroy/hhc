@@ -27,6 +27,10 @@ Route::get('/gallery',function(){
     return view('gallery');
 });
 
+Route::get('/donate',function(){
+    return view('donate');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });

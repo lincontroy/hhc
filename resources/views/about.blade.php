@@ -39,7 +39,7 @@
             <div class="col-xl-6">
                 <div class="about-four__right">
                     <div class="section-title text-left">
-                        <span class="section-title__tagline">About Hellena Hands of Compassion</span>
+                        <span class="section-title__tagline">We strive to impact one life at a time</span>
                         <h2 class="section-title__title">Bringing Hope and Transforming Lives</h2>
                     </div>
                     <p class="about-four__text">

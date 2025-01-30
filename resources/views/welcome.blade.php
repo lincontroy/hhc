@@ -40,7 +40,7 @@
                                 <p class="main-slider__sub-title">Caring and Compasion</p>
                                 <h2 class="main-slider__title">Caring for the vulnerable children in the society</h2>
                                 <div class="main-slider__btn-box">
-                                    <a href="" class="thm-btn main-slider__btn"> Donate</a>
+                                    <a href="/donate" class="thm-btn main-slider__btn"> Donate</a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                 <p class="main-slider__sub-title">The elderly in the society</p>
                                 <h2 class="main-slider__title">Caring for the elderly in the society</h2>
                                 <div class="main-slider__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider__btn"> Donate</a>
+                                    <a href="/donate" class="thm-btn main-slider__btn"> Donate</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/child.jpeg" alt="">
+                        <img src="assets/images/ours/children.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Children</p>
                         </div>
@@ -313,7 +313,7 @@
                                 <span class="icon-gift-box"></span>
                             </div>
                             <div class="feature-one__top-title-box">
-                                <h3 class="feature-one__top-title"><a href="donate.html">Give Hope with<br> Your Gift</a></h3>
+                                <h3 class="feature-one__top-title"><a href="/donate">Give Hope with<br> Your Gift</a></h3>
                             </div>
                         </div>
                     </div>
@@ -344,7 +344,7 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="donate.html" class="thm-btn feature-one__btn">Donate Now</a>
+                    <a href="/donate" class="thm-btn feature-one__btn">Donate Now</a>
                 </div>
             </div>
         </div>

@@ -176,7 +176,7 @@
                                             <a href="cart.html" class="main-menu__cart icon-shopping-cart"></a>
                                         </div>
                                         <div class="main-menu__btn-box">
-                                            <a href="donate-now.html" class="main-menu__btn"> <span
+                                            <a href="/donate" class="main-menu__btn"> <span
                                                     class="fa fa-heart"></span> Donate
                                                 now</a>
                                         </div>
