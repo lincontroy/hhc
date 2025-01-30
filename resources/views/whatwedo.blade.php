@@ -17,7 +17,7 @@
         </section>
         <!--Page Header End-->
 
-<section class="causes-one about-four container">
+        <section class="causes-one">
     <div class="container">
         <div class="section-title text-center">
             <span class="section-title__tagline">Help & donate to us now</span>
@@ -28,7 +28,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/child.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Children</p>
                         </div>
@@ -47,7 +47,7 @@
              <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/eld.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Elderlies</p>
                         </div>
@@ -63,7 +63,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/youth.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Youth</p>
                         </div>
@@ -83,9 +83,9 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/rehab.jpeg" alt="">
                         <div class="causes-one__cat">
-                            <p>Children</p>
+                            <p>Counseling</p>
                         </div>
                     </div>
                     <div class="causes-one__content">
@@ -102,9 +102,9 @@
              <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/rfp.jpeg" alt="">
                         <div class="causes-one__cat">
-                            <p>Elderlies</p>
+                            <p>Funds</p>
                         </div>
                     </div>
                     <div class="causes-one__content">
@@ -118,9 +118,9 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/placeholder.png" alt="">
+                        <img src="assets/images/resources/dev.jpeg" alt="">
                         <div class="causes-one__cat">
-                            <p>Youth</p>
+                            <p>Development</p>
                         </div>
                     </div>
                     <div class="causes-one__content">
