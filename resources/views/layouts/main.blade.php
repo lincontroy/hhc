@@ -158,7 +158,7 @@
                                            
                                         </li>
                                         <li class="">
-                                            <a href="/correspondence">Gallery</a>
+                                            <a href="/gallery">Gallery</a>
                                           
                                         </li>
                                         <li>
