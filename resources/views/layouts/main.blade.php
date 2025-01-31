@@ -282,7 +282,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:hmcc.missions@gmail.com">info@hhcompassion.org/hmcc.missions@gmail.com</a>
+                    <a href="mailto:hmcc.missions@gmail.com">hmcc.missions@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@hhcompassion.org">info@hhcompassion.org</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
