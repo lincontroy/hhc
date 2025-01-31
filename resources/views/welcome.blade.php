@@ -24,7 +24,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(assets/images/ours/WhatsApp%20Image%202025-01-30%20at%204.30.53%20PM%20(1).jpeg);"></div>
+                <div class="image-layer" style="background-image: url(assets/images/child/c2.jpeg);"></div>
                 <!-- /.image-layer -->
 
                 <div class="main-slider-shape-1"
@@ -89,7 +89,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-8">
                             <div class="main-slider__content">
-                                <p class="main-slider__sub-title">Always donate for children</p>
+                                <p class="main-slider__sub-title">Lend help</p>
                                 <h2 class="main-slider__title">Lend a Helping Hand to Those in Need</h2>
                                 <div class="main-slider__btn-box">
                                     <a href="/donate" class="thm-btn main-slider__btn">Donate</a>
