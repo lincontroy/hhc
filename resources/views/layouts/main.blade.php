@@ -12,8 +12,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Oxpins HTML 5 Template " />
+    <link rel="manifest" href="assets/images/resources/logo-1.png"/>
+    <meta name="description" content=" At Hellena Hands of Compassion, we believe in making a difference—one life at a time. 
+                        Our mission is to support the vulnerable, provide essential resources, and uplift communities through acts of kindness and generosity. 
+                        From feeding programs to education sponsorships, we are dedicated to creating a world where everyone has a chance to thrive." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">

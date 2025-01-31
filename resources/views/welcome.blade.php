@@ -248,7 +248,7 @@
 <!-- FAQ One Start -->
 <section class="faq-one">
     <div class="faq-one-shape-1" style="background-image: url(assets/images/shapes/faq-one-shape-1.png);"></div>
-    <div class="faq-one-bg" style="background-image: url(assets/images/backgrounds/faq-one-bg.png);"></div>
+    <div class="faq-one-bg" style=""></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6">
