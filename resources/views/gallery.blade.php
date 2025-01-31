@@ -10,9 +10,24 @@
     }
 </style>
 
+<section class="page-header">
+            <div class="page-header-bg" style="background-image: url(assets/images/fwe/WhatsApp%20Image%202025-01-29%20at%2011.18.17%20PM.jpeg)">
+            </div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li class="active">Gallery</li>
+                    </ul>
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+        </section>
+
 <section class="gallery-page">
     <div class="container">
-        <div class="row">
+        <div class="row" id="eld">
             <h2>Fellowship with the Elderly</h2><br><br>
 
             @php
@@ -42,7 +57,7 @@
             @endforeach
 
         </div>
-        <div class="row">
+        <div class="row" id="prison">
             <h2>Prison ministry</h2><br><br>
 
             @php
@@ -73,7 +88,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" id="youth">
             <h2>Youth mentorship program</h2><br><br>
 
             @php
@@ -104,7 +119,38 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" id="child">
+            <h2>Children ministry</h2><br><br>
+
+            @php
+                $imagePath = public_path('assets/images/child/');
+                $images = [];
+                if (File::exists($imagePath)) {
+                    $files = File::files($imagePath);
+                    foreach ($files as $file) {
+                        $images[] = asset('assets/images/child/' . $file->getFilename());
+                    }
+                }
+            @endphp
+
+            @foreach($images as $image)
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="gallery-page__single">
+                        <div class="gallery-page__img">
+                            <img src="{{ $image }}" alt="Gallery Image">
+                            <a href="{{ $image }}" class="img-popup"></a>
+                            <div class="gallery-page__content">
+                                <p class="gallery-page__sub-title">Charity</p>
+                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+
+        </div>
+
+        <div class="row" id="med">
             <h2>Medical camp</h2><br><br>
 
             @php
@@ -134,7 +180,7 @@
             @endforeach
 
         </div>
-        <div class="row">
+        <div class="row" id="partners">
             <h2>Partners</h2><br><br>
 
             @php
@@ -166,7 +212,7 @@
         </div>
 
         <div class="row">
-            <h2>Video media</h2><br><br>
+            <h2>Our Videos</h2><br><br>
 
             @php
                 $imagePath = public_path('assets/images/vid/');

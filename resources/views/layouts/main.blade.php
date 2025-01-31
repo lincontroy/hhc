@@ -55,15 +55,7 @@
     <link rel="stylesheet" href="assets/css/oxpins.css" />
 </head>
 
-<body class="custom-cursor">
-
-    <div class="custom-cursor__cursor"></div>
-    <div class="custom-cursor__cursor-two"></div>
-
-
-
-
-
+<body class="">
     <div class="preloader">
         <div class="preloader__image"></div>
     </div>
@@ -89,9 +81,9 @@
                                             <img src="assets/images/icon/main-menu-heart-icon.png" alt="">
                                         </div>
                                         <div class="main-menu__volunteers-text-box">
-                                            <p class="main-menu__volunteers-text"><a href="become-volunteer.html">Become
+                                            <p class="main-menu__volunteers-text"><a href="">Become
                                                     a
-                                                    <span>volunteers</span></a></p>
+                                                    <span>volunteer</span></a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +96,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <p>Helpline</p>
-                                                    <h5><a href="tel:980009630">+254737548759</a></h5>
+                                                    <h5><a href="tel:254737548759">+254737548759</a></h5>
                                                 </div>
                                             </li>
                                             <li>
@@ -130,9 +122,9 @@
                                         </ul>
                                     </div>
                                     <div class="main-menu__right-top-social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                        
+                                        <a href="https://www.facebook.com/profile.php?id=61568147843507"><i class="fab fa-facebook"></i></a>
+                                        
                                         <a href="#"><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
@@ -141,8 +133,8 @@
                                 <div class="main-menu__main-menu-box">
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
-                                        <li class="megamenu current megamenu-clickable megamenu-clickable--toggler">
-                                            <a href="{{url('/')}}">Home</a>
+                                        <li class="">
+                                            <a href="/">Home</a>
                                           
                                         </li>
                                         <li class="">
@@ -164,20 +156,12 @@
                                         <li>
                                             <a href="/contact">Contact</a>
                                         </li>
-                                        <li>
-                                            <a href="/contact">Donate</a>
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                                 <div class="main-menu__main-menu-content-box">
                                     <div class="main-menu__search-cat-btn-box">
-                                        <div class="main-menu__search-box">
-                                            <a href="#"
-                                                class="main-menu__search search-toggler icon-magnifying-glass"></a>
-                                        </div>
-                                        <div class="main-menu__cat-box">
-                                            <a href="cart.html" class="main-menu__cart icon-shopping-cart"></a>
-                                        </div>
+                                        
                                         <div class="main-menu__btn-box">
                                             <a href="/donate" class="main-menu__btn"> <span
                                                     class="fa fa-heart"></span> Donate
@@ -213,7 +197,7 @@
                             <div class="footer-widget__column footer-widget__links clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__links-list list-unstyled clearfix">
-                                <li><a href="{{url('/')}}">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                     <li><a href="/about">About us</a></li>
                                     <li><a href="/whatwedo">What we do</a></li>
                                     <li><a href="/events">Events</a></li>
@@ -245,7 +229,7 @@
                                             <i class="fas fa-phone-alt"></i>
                                         </div>
                                         <div class="text">
-                                            <p><a href="tel:980009630">+254737548759</a></p>
+                                            <p><a href="tel:254737548759">+254737548759</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -265,7 +249,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/">Automation eye Limited</a>
+                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/" target="_target">Automation eye Limited</a>
                                 </p>
                             </div>
                         </div>

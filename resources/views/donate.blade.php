@@ -1,6 +1,21 @@
 @extends('layouts.main')
 @section('content')
 
+<section class="page-header">
+            <div class="page-header-bg" style="background-image: url(assets/images/fwe/WhatsApp%20Image%202025-01-29%20at%2011.18.17%20PM.jpeg)">
+            </div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li class="active">Pages</li>
+                    </ul>
+                    <h2>Donate</h2>
+                </div>
+            </div>
+        </section>
+
 
 <section id="donations" class="py-5 bg-light">
     <div class="container">
@@ -11,7 +26,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h3 class="card-title text-primary">M-Pesa Donations</h3>
+                        <h3 class="card-title">M-Pesa Donations</h3>
                         <p class="card-text">You can send your donations through M-Pesa using the following details:</p>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><strong>Option 1:</strong></li>
@@ -32,7 +47,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h3 class="card-title text-success">Gift Donations</h3>
+                        <h3 class="card-title ">Gift Donations</h3>
                         <p class="card-text">You can also donate essential items to support our cause:</p>
                         <ul class="list-group">
                             <li class="list-group-item">Food Stuff</li>
@@ -50,7 +65,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h3 class="card-title text-danger">International Transfers</h3>
+                        <h3 class="card-title ">International Transfers</h3>
                         <p class="card-text">For international donations, please use the following bank details:</p>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><strong>Acc. Name:</strong> HELLENA HAND OF COMPASSION</li>

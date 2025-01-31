@@ -4,7 +4,7 @@
 
   <!--Page Header Start-->
   <section class="page-header">
-            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+            <div class="page-header-bg" style="background-image: url(assets/images/fwe/WhatsApp%20Image%202025-01-29%20at%2011.18.17%20PM.jpeg)">
             </div>
             <div class="container">
                 <div class="page-header__inner">

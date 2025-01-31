@@ -24,7 +24,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(assets/images/resources/hs1.jpg);"></div>
+                <div class="image-layer" style="background-image: url(assets/images/ours/WhatsApp%20Image%202025-01-30%20at%204.30.53%20PM%20(1).jpeg);"></div>
                 <!-- /.image-layer -->
 
                 <div class="main-slider-shape-1"
@@ -37,7 +37,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-8">
                             <div class="main-slider__content">
-                                <p class="main-slider__sub-title">Caring and Compasion</p>
+                                <p class="main-slider__sub-title">Caring and Compassion</p>
                                 <h2 class="main-slider__title">Caring for the vulnerable children in the society</h2>
                                 <div class="main-slider__btn-box">
                                     <a href="/donate" class="thm-btn main-slider__btn"> Donate</a>
@@ -49,7 +49,7 @@
             </div>
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-1-2.png);">
+                <div class="image-layer" style="background-image: url(assets/images/fwe/WhatsApp%20Image%202025-01-29%20at%2011.18.17%20PM.jpeg);">
                 </div>
                 <!-- /.image-layer -->
 
@@ -63,8 +63,8 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-8">
                             <div class="main-slider__content">
-                                <p class="main-slider__sub-title">The elderly in the society</p>
-                                <h2 class="main-slider__title">Caring for the elderly in the society</h2>
+                                <p class="main-slider__sub-title">Taking Care of all </p>
+                                <h2 class="main-slider__title">Caring for Our elderly in the society </h2>
                                 <div class="main-slider__btn-box">
                                     <a href="/donate" class="thm-btn main-slider__btn"> Donate</a>
                                 </div>
@@ -75,7 +75,7 @@
             </div>
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-1-3.png);">
+                <div class="image-layer" style="background-image: url(assets/images/ours/children.jpeg);">
                 </div>
                 <!-- /.image-layer -->
 
@@ -89,10 +89,10 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-8">
                             <div class="main-slider__content">
-                                <p class="main-slider__sub-title">Always donate for childrens</p>
+                                <p class="main-slider__sub-title">Always donate for children</p>
                                 <h2 class="main-slider__title">Lend a Helping Hand to Those in Need</h2>
                                 <div class="main-slider__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider__btn"> Discover more</a>
+                                    <a href="/donate" class="thm-btn main-slider__btn">Donate</a>
                                 </div>
                             </div>
                         </div>
@@ -117,20 +117,25 @@
 <!--Main Slider End-->
 
 <!--About One Start-->
-<section class="about-one">
-    
+<section class="about-one py-5">
     <div class="container">
-        <div class="row">
-            
+        <div class="row align-items-center">
+            <!-- Text Section -->
             <div class="col-xl-6">
                 <div class="">
                     <div class="section-title text-left">
                         <span class="section-title__tagline">IMPACTING ONE LIFE AT A TIME</span>
-
                     </div>
-                    <p class="about-one__text">Hellena Hand of compassion, is a registered organization, that has been running missions and outreach programs working to heal, and uplift communities’ Working with the vulnerable children, elderly and youth in the community, Impacting one Life at a Time.</p>
-                    
-                 
+                    <p class="about-one__text">
+                        Hellena Hand of Compassion is a registered organization that has been running missions and outreach programs, working to heal and uplift communities. We work with vulnerable children, the elderly, and youth in the community—impacting one life at a time.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="col-xl-6">
+                <div class="about-one__image text-center gallery-page__single">
+                    <img src="assets/images/fwe/WhatsApp%20Image%202025-01-29%20at%2011.18.12%20PM%20(1).jpeg" alt="About Us" class="img-fluid rounded shadow-lg">
                 </div>
             </div>
         </div>
@@ -138,124 +143,9 @@
 </section>
 <!--About One End-->
 
-<!--Causes One Start-->
-<section class="causes-one">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="section-title__tagline">Help & donate to us now</span>
-            <h2 class="section-title__title">What we do</h2>
-        </div>
-        <div class="row">
-            <!--Causes One Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="causes-one__single">
-                    <div class="causes-one__img">
-                        <img src="assets/images/ours/children.jpeg" alt="">
-                        <div class="causes-one__cat">
-                            <p>Children</p>
-                        </div>
-                    </div>
-                    <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="">Caring for Vulnerable Children</a>
-                        </h3>
-                        <p class="causes-one__text">We provide essential care and support to children in need, ensuring their well-being
-                        and growth in a safe environment.</p>
-                    </div>
-                </div>
-            </div>
-            <!--Causes One Single End-->
-            <!--Causes One Single Start-->
-             <!--Causes One Single Start-->
-             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="causes-one__single">
-                    <div class="causes-one__img">
-                        <img src="assets/images/resources/eld.jpeg" alt="">
-                        <div class="causes-one__cat">
-                            <p>Elderlies</p>
-                        </div>
-                    </div>
-                    <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="">Caring for Vulnerable Elderlies</a>
-                        </h3>
-                        <p class="causes-one__text">Our programs focus on supporting the elderly, ensuring they live with dignity and
-                        comfort in their later years.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="causes-one__single">
-                    <div class="causes-one__img">
-                        <img src="assets/images/resources/youth.jpeg" alt="">
-                        <div class="causes-one__cat">
-                            <p>Youth</p>
-                        </div>
-                    </div>
-                    <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="">Supporting Youth Programs</a>
-                        </h3>
-                        <p class="causes-one__text">We empower the youth with mentorship, skills, and opportunities to realize their full
-                        potential.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <!--Causes One Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="causes-one__single">
-                    <div class="causes-one__img">
-                        <img src="assets/images/resources/rehab.jpeg" alt="">
-                        <div class="causes-one__cat">
-                            <p>Counseling</p>
-                        </div>
-                    </div>
-                    <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="">Counseling & Rehabilitation</a>
-                        </h3>
-                        <p class="causes-one__text">We offer counseling and rehabilitation services to help individuals overcome alcohol
-                        addiction and rebuild their lives.</p>
-                    </div>
-                </div>
-            </div>
-            <!--Causes One Single End-->
-            <!--Causes One Single Start-->
-             <!--Causes One Single Start-->
-             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="causes-one__single">
-                    <div class="causes-one__img">
-                        <img src="assets/images/resources/rfp.jpeg" alt="">
-                        <div class="causes-one__cat">
-                            <p>Funds</p>
-                        </div>
-                    </div>
-                    <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="">Revolving Fund Program</a>
-                        </h3>
-                        <p class="causes-one__text">Our revolving fund program provides financial support to individuals and groups,
-                        fostering economic empowerment.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="causes-one__single">
-                    <div class="causes-one__img">
-                        <img src="assets/images/resources/dev.jpeg" alt="">
-                        <div class="causes-one__cat">
-                            <p>Development</p>
-                        </div>
-                    </div>
-                    <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="">Development Programs</a>
-                        </h3>
-                        <p class="causes-one__text">We focus on community development through education, healthcare, and economic
-                        initiatives for sustainable growth.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!--Causes One Start-->
+@include('wwd')
 <!--Causes One End-->
 <!--Feature One Start-->
 <section class="feature-one">
