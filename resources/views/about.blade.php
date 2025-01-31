@@ -27,11 +27,9 @@
                 <div class="about-four__left">
                     <div class="about-four__img-box">
                         <div class="about-four__img">
-                            <img src="assets/images/resources/about-four-img-1.jpg" alt="Helping Hands">
+                            <img src="assets/images/ours/children.jpeg" alt="Helping Hands">
                         </div>
-                        <div class="about-four__img-two">
-                            <img src="assets/images/resources/about-four-img-2.jpg" alt="Community Support">
-                        </div>
+                       
                         <div class="about-four__border"></div>
                     </div>
                 </div>
