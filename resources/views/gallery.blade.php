@@ -81,48 +81,13 @@
 
                 @if (count($images) > 6)
                     <div class="col-12 text-center">
-                        <button class="btn btn-primary show-more" data-target="{{ $section['id'] }}">Show More</button>
+                        <button class="thm-btn show-more" data-target="{{ $section['id'] }}">Show More</button>
                     </div>
                 @endif
             </div>
         @endforeach
-        <div class="row">
-            <h2>Our Videos</h2><br><br>
-
-            @php
-                $imagePath = public_path('assets/images/vid/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/vid/' . $file->getFilename());
-                    }
-                }
-            @endphp
-
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                        <video controls width="100%">
-                        <source src="{{ $image }}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                            
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-    </div>
-    </div>
-
-    
-</section>
-
+        <br>
 <script>
-
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".show-more").forEach(button => {
         button.addEventListener("click", function () {
