@@ -2,6 +2,12 @@
 @section('content')
 
 <style>
+    .hidden {
+    display: none;
+}
+</style>
+
+<style>
     .gallery-page__img img {
         width: 100%; /* Ensures images fit the container */
         height: 250px; /* Fixed height for uniformity */
@@ -9,6 +15,7 @@
         border-radius: 10px; /* Optional: Rounded corners for aesthetics */
     }
 </style>
+
 
 <section class="page-header">
             <div class="page-header-bg" style="background-image: url(assets/images/fwe/WhatsApp%20Image%202025-01-29%20at%2011.18.17%20PM.jpeg)">
@@ -25,192 +32,60 @@
             </div>
         </section>
 
+
+
 <section class="gallery-page">
     <div class="container">
-        <div class="row" id="eld">
-            <h2>Fellowship with the Elderly</h2><br><br>
 
-            @php
-                $imagePath = public_path('assets/images/fwe/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/fwe/' . $file->getFilename());
+
+        @php
+            $sections = [
+                ['id' => 'eld', 'title' => 'Fellowship with the Elderly', 'path' => 'assets/images/fwe/'],
+                ['id' => 'prison', 'title' => 'Prison Ministry', 'path' => 'assets/images/pm/'],
+                ['id' => 'youth', 'title' => 'Youth Mentorship Program', 'path' => 'assets/images/ymp/'],
+                ['id' => 'child', 'title' => 'Children Ministry', 'path' => 'assets/images/child/'],
+                ['id' => 'med', 'title' => 'Medical Camp', 'path' => 'assets/images/mc/'],
+                ['id' => 'partners', 'title' => 'Partners', 'path' => 'assets/images/patners/'],
+            ];
+        @endphp
+
+        @foreach ($sections as $section)
+            <div class="row gallery-section" id="{{ $section['id'] }}">
+                <h2>{{ $section['title'] }}</h2><br><br>
+
+                @php
+                    $imagePath = public_path($section['path']);
+                    $images = [];
+                    if (File::exists($imagePath)) {
+                        $files = File::files($imagePath);
+                        foreach ($files as $file) {
+                            $images[] = asset($section['path'] . $file->getFilename());
+                        }
                     }
-                }
-            @endphp
+                @endphp
 
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                            <img src="{{ $image }}" alt="Gallery Image">
-                            <a href="{{ $image }}" class="img-popup"></a>
-                            <div class="gallery-page__content">
-                                <p class="gallery-page__sub-title">Charity</p>
-                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
+                @foreach($images as $index => $image)
+                    <div class="col-xl-4 col-lg-6 col-md-6 gallery-item {{ $index >= 6 ? 'hidden' : '' }}">
+                        <div class="gallery-page__single">
+                            <div class="gallery-page__img">
+                                <img src="{{ $image }}" alt="Gallery Image">
+                                <a href="{{ $image }}" class="img-popup"></a>
+                                <div class="gallery-page__content">
+                                    <p class="gallery-page__sub-title">Charity</p>
+                                    <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            @endforeach
+                @endforeach
 
-        </div>
-        <div class="row" id="prison">
-            <h2>Prison ministry</h2><br><br>
-
-            @php
-                $imagePath = public_path('assets/images/pm/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/pm/' . $file->getFilename());
-                    }
-                }
-            @endphp
-
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                            <img src="{{ $image }}" alt="Gallery Image">
-                            <a href="{{ $image }}" class="img-popup"></a>
-                            <div class="gallery-page__content">
-                                <p class="gallery-page__sub-title">Charity</p>
-                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
-                            </div>
-                        </div>
+                @if (count($images) > 6)
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary show-more" data-target="{{ $section['id'] }}">Show More</button>
                     </div>
-                </div>
-            @endforeach
-
-        </div>
-
-        <div class="row" id="youth">
-            <h2>Youth mentorship program</h2><br><br>
-
-            @php
-                $imagePath = public_path('assets/images/ymp/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/ymp/' . $file->getFilename());
-                    }
-                }
-            @endphp
-
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                            <img src="{{ $image }}" alt="Gallery Image">
-                            <a href="{{ $image }}" class="img-popup"></a>
-                            <div class="gallery-page__content">
-                                <p class="gallery-page__sub-title">Charity</p>
-                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-
-        <div class="row" id="child">
-            <h2>Children ministry</h2><br><br>
-
-            @php
-                $imagePath = public_path('assets/images/child/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/child/' . $file->getFilename());
-                    }
-                }
-            @endphp
-
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                            <img src="{{ $image }}" alt="Gallery Image">
-                            <a href="{{ $image }}" class="img-popup"></a>
-                            <div class="gallery-page__content">
-                                <p class="gallery-page__sub-title">Charity</p>
-                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-
-        <div class="row" id="med">
-            <h2>Medical camp</h2><br><br>
-
-            @php
-                $imagePath = public_path('assets/images/mc/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/mc/' . $file->getFilename());
-                    }
-                }
-            @endphp
-
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                            <img src="{{ $image }}" alt="Gallery Image">
-                            <a href="{{ $image }}" class="img-popup"></a>
-                            <div class="gallery-page__content">
-                                <p class="gallery-page__sub-title">Charity</p>
-                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-        <div class="row" id="partners">
-            <h2>Partners</h2><br><br>
-
-            @php
-                $imagePath = public_path('assets/images/patners/');
-                $images = [];
-                if (File::exists($imagePath)) {
-                    $files = File::files($imagePath);
-                    foreach ($files as $file) {
-                        $images[] = asset('assets/images/patners/' . $file->getFilename());
-                    }
-                }
-            @endphp
-
-            @foreach($images as $image)
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="gallery-page__single">
-                        <div class="gallery-page__img">
-                            <img src="{{ $image }}" alt="Gallery Image">
-                            <a href="{{ $image }}" class="img-popup"></a>
-                            <div class="gallery-page__content">
-                                <p class="gallery-page__sub-title">Charity</p>
-                                <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-
+                @endif
+            </div>
+        @endforeach
         <div class="row">
             <h2>Our Videos</h2><br><br>
 
@@ -241,7 +116,28 @@
 
         </div>
     </div>
+    </div>
+
+    
 </section>
 
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".show-more").forEach(button => {
+        button.addEventListener("click", function () {
+            let targetId = this.getAttribute("data-target");
+            let section = document.getElementById(targetId);
+            
+            section.querySelectorAll(".hidden").forEach(item => {
+                item.classList.remove("hidden");
+            });
+
+            this.style.display = "none"; // Hide button after showing all images
+        });
+    });
+});
+
+</script>
 
 @endsection
