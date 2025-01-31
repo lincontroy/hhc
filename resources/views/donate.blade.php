@@ -8,7 +8,7 @@
 
         <div class="row">
             <!-- M-Pesa Donations -->
-            <div class="col-md-6 mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h3 class="card-title text-primary">M-Pesa Donations</h3>
@@ -29,7 +29,7 @@
             </div>
             
             <!-- Gift Donations -->
-            <div class="col-md-6 mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h3 class="card-title text-success">Gift Donations</h3>
@@ -42,6 +42,22 @@
                             <li class="list-group-item">Books</li>
                         </ul>
                         <p class="mt-3">Please contact us for drop-off locations or pickup arrangements.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- International Transfers -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title text-danger">International Transfers</h3>
+                        <p class="card-text">For international donations, please use the following bank details:</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Acc. Name:</strong> HELLENA HAND OF COMPASSION</li>
+                            <li class="list-group-item"><strong>Acc No:</strong> 01100725948001</li>
+                            <li class="list-group-item"><strong>Bank:</strong> Co-operative Bank of Kenya</li>
+                            <li class="list-group-item"><strong>Swift Code:</strong> KCOOKENA</li>
+                        </ul>
                     </div>
                 </div>
             </div>
