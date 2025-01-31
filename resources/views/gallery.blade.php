@@ -50,8 +50,9 @@
         @endphp
 
         @foreach ($sections as $section)
+        <br>
             <div class="row gallery-section" id="{{ $section['id'] }}">
-                <h2>{{ $section['title'] }}</h2><br><br>
+                <h2 class="text-center">{{ $section['title'] }}</h2><br><br>
 
                 @php
                     $imagePath = public_path($section['path']);
@@ -82,7 +83,7 @@
                 @if (count($images) > 6)
                     <div class="col-12 text-center">
                         <button class="thm-btn show-more" data-target="{{ $section['id'] }}">Show More</button>
-                    </div>
+                    </div><br>
                 @endif
             </div>
         @endforeach
