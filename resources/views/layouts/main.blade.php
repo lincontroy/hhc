@@ -164,6 +164,9 @@
                                         <li>
                                             <a href="/contact">Contact</a>
                                         </li>
+                                        <li>
+                                            <a href="/contact">Donate</a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="main-menu__main-menu-content-box">

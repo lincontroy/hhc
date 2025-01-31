@@ -20,7 +20,7 @@
         <section class="causes-one">
     <div class="container">
         <div class="section-title text-center">
-            <span class="section-title__tagline">Help & donate to us now</span>
+            
             <h2 class="section-title__title">What we do</h2>
         </div>
         <div class="row">
@@ -28,7 +28,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/child.jpeg" alt="">
+                        <img src="assets/images/resources/children.jpeg" alt="">
                         <div class="causes-one__cat">
                             <p>Children</p>
                         </div>
