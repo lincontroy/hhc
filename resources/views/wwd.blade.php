@@ -91,6 +91,19 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                <div class="causes-one__single">
+                    <div class="causes-one__img">
+                        <img src="assets/images/ours/med.jpeg" alt="Development">
+                        <div class="causes-one__cat"><p>Medical Camp</p></div>
+                    </div>
+                    <div class="causes-one__content">
+                        <h3 class="causes-one__title"><a href="/gallery#meds">Medical camps</a></h3>
+                        <p class="causes-one__text">We focus on community development through Medical Camps.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

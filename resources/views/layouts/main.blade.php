@@ -166,7 +166,7 @@
                                         
                                         <div class="main-menu__btn-box">
                                             <a href="/donate" class="main-menu__btn"> <span
-                                                    class="fa fa-heart"></span> Donate
+                                                    class="fa fa-heart"></span> Partner With Us
                                                 now</a>
                                         </div>
                                     </div>
@@ -206,7 +206,7 @@
                                     <li><a href="/correspondence">Correspondence</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                     
-                                    <li><a href="/donate">Donate</a></li>
+                                    <li><a href="/Partner With Us">Partner With Us</a></li>
                                 </ul>
                             </div>
                         </div>
