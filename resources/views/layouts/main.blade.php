@@ -236,9 +236,9 @@
                                     </li>
                                 </ul>
                                 <div class="site-footer__social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    
+                                    <a href="https://www.facebook.com/profile.php?id=61568147843507"><i class="fab fa-facebook"></i></a>
+                                   
                                     <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -251,7 +251,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/" target="_target">Automation eye Limited</a>
+                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/" target="_target">AUTOMATION EYE LIMITED</a>
                                 </p>
                             </div>
                         </div>

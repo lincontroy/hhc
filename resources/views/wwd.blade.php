@@ -15,7 +15,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/ours/children.jpeg" alt="Children">
+                        <img src="assets/images/ours/children.jpeg" alt="Children" loading="lazy">
                         <div class="causes-one__cat"><p>Children</p></div>
                     </div>
                     <div class="causes-one__content">
@@ -24,15 +24,15 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/eld.jpeg" alt="Elderly">
-                        <div class="causes-one__cat"><p>Elderlies</p></div>
+                        <img src="assets/images/resources/eld.jpeg" alt="Elderly" loading="lazy">
+                        <div class="causes-one__cat"><p>Elderly</p></div>
                     </div>
                     <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="/gallery#eld">Caring for Vulnerable Elderlies</a></h3>
+                        <h3 class="causes-one__title"><a href="/gallery#eld">Caring for Vulnerable Elderly</a></h3>
                         <p class="causes-one__text">Our programs focus on supporting the elderly, ensuring they live with dignity and comfort in their later years.</p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
             <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/youth.jpeg" alt="Youth">
+                        <img src="assets/images/resources/youth.jpeg" alt="Youth" loading="lazy">
                         <div class="causes-one__cat"><p>Youth</p></div>
                     </div>
                     <div class="causes-one__content">
@@ -53,10 +53,10 @@
         </div>
 
         <div class="row">
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/rehab.jpeg" alt="Counseling">
+                        <img src="assets/images/resources/rehab.jpeg" alt="Counseling" loading="lazy">
                         <div class="causes-one__cat"><p>Counseling</p></div>
                     </div>
                     <div class="causes-one__content">
@@ -66,10 +66,10 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/rfp.jpeg" alt="Funds">
+                        <img src="assets/images/resources/rfp.jpeg" alt="Funds" loading="lazy">
                         <div class="causes-one__cat"><p>Funds</p></div>
                     </div>
                     <div class="causes-one__content">
@@ -79,10 +79,10 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/resources/dev.jpeg" alt="Development">
+                        <img src="assets/images/resources/dev.jpeg" alt="Development" loading="lazy">
                         <div class="causes-one__cat"><p>Development</p></div>
                     </div>
                     <div class="causes-one__content">
@@ -92,10 +92,10 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
                 <div class="causes-one__single">
                     <div class="causes-one__img">
-                        <img src="assets/images/ours/med.jpeg" alt="Development">
+                        <img src="assets/images/ours/med.jpeg" alt="Medical Camp" loading="lazy">
                         <div class="causes-one__cat"><p>Medical Camp</p></div>
                     </div>
                     <div class="causes-one__content">
