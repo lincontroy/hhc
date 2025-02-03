@@ -99,7 +99,7 @@
                         <div class="causes-one__cat"><p>Medical Camp</p></div>
                     </div>
                     <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="/gallery#meds">Medical camps</a></h3>
+                        <h3 class="causes-one__title"><a href="/gallery#med">Medical camps</a></h3>
                         <p class="causes-one__text">We focus on community development through Medical Camps.</p>
                     </div>
                 </div>
