@@ -165,7 +165,7 @@
                 <div class="about-four__left">
                     <div class="about-four__img-box">
                         <div class="about-four__img">
-                            <img src="assets/images/resources/serve.jpeg" alt="Medical Camp">
+                            <img src="assets/images/mental/WhatsApp Image 2025-02-03 at 5.23.55 PM (1).jpeg" alt="Medical Camp">
                         </div>
                         
                         <div class="about-four__border"></div>

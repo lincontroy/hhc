@@ -218,14 +218,23 @@
                                    
                                 </p>
                                 <ul class="list-unstyled footer-widget__contact-list">
+                                <li>
+                                        <div class="icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a href="mailto:info@hhcompassion.org">info@hhcompassion.org</a></p>
+                                        </div>
+                                    </li>
                                     <li>
                                         <div class="icon">
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="text">
-                                            <p><a href="mailto:info@hhcompassion.org">info@hhcompassion.org/hmcc.missions@gmail.com</a></p>
+                                            <p><a href="mailto:hmcc.missions@gmail.com">hmcc.missions@gmail.com</a></p>
                                         </div>
                                     </li>
+
                                     <li>
                                         <div class="icon">
                                             <i class="fas fa-phone-alt"></i>
@@ -284,6 +293,7 @@
                     <i class="fa fa-envelope"></i>
                     <a href="mailto:hmcc.missions@gmail.com">hmcc.missions@gmail.com</a>
                 </li>
+                <br>
                 <li>
                     <i class="fa fa-envelope"></i>
                     <a href="mailto:info@hhcompassion.org">info@hhcompassion.org</a>
