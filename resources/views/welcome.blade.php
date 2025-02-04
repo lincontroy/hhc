@@ -260,7 +260,7 @@
                     <p class="faq-one__text-1">
                         Here are some of the most common questions about our charity initiatives, how you can help, and the impact we make.
                     </p>
-                    <a href="faq.html" class="thm-btn faq-one__btn">Learn how to get involved</a>
+                   
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">

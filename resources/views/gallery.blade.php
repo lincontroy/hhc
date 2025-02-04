@@ -44,7 +44,10 @@
                 ['id' => 'prison', 'title' => 'Prison Ministry', 'path' => 'assets/images/pm/'],
                 ['id' => 'youth', 'title' => 'Youth Mentorship Program', 'path' => 'assets/images/ymp/'],
                 ['id' => 'child', 'title' => 'Children Ministry', 'path' => 'assets/images/child/'],
-                ['id' => 'med', 'title' => 'Medical Camp', 'path' => 'assets/images/mc/'],
+                ['id' => 'medental', 'title' => 'Medical Camp (Dental clinic)', 'path' => 'assets/images/dental/'],
+                ['id' => 'medental', 'title' => 'Medical Camp (Mental wellness)', 'path' => 'assets/images/mental/'],
+                ['id' => 'medental', 'title' => 'Medical Camp (Optical clinic)', 'path' => 'assets/images/optical/'],
+                ['id' => 'medental', 'title' => 'Medical Camp (Mother/women clinic)', 'path' => 'assets/images/mothers/'],
                 ['id' => 'partners', 'title' => 'Partners', 'path' => 'assets/images/patners/'],
             ];
         @endphp
@@ -69,7 +72,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 gallery-item {{ $index >= 6 ? 'hidden' : '' }}">
                         <div class="gallery-page__single">
                             <div class="gallery-page__img">
-                                <img src="{{ $image }}" alt="Gallery Image">
+                            <img src="{{ $image }}" alt="Gallery Image" loading="lazy">
                                 <a href="{{ $image }}" class="img-popup"></a>
                                 <div class="gallery-page__content">
                                     <p class="gallery-page__sub-title">Charity</p>
