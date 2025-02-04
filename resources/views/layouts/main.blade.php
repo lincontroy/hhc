@@ -251,7 +251,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/" target="_target">AUTOMATION EYE LIMITED</a>
+                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://automationeye.com/" target="_target">Automation Eye Limited</a>
                                 </p>
                             </div>
                         </div>

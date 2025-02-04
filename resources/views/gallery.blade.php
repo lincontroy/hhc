@@ -75,8 +75,8 @@
                             <img src="{{ $image }}" alt="Gallery Image" loading="lazy">
                                 <a href="{{ $image }}" class="img-popup"></a>
                                 <div class="gallery-page__content">
-                                    <p class="gallery-page__sub-title">Charity</p>
-                                    <h5 class="gallery-page__title"><a href="gallery.html">Gallery</a></h5>
+                                    <p class="gallery-page__sub-title">{{ $section['title'] }}</p>
+                                    <h5 class="gallery-page__title"><a href="/gallery">Gallery</a></h5>
                                 </div>
                             </div>
                         </div>
