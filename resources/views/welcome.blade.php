@@ -160,7 +160,7 @@
                                 <span class="icon-help"></span>
                             </div>
                             <div class="feature-one__top-title-box">
-                                <h3 class="feature-one__top-title"><a href="become-volunteer.html">Join Hands &<br> Make a Difference</a></h3>
+                                <h3 class="feature-one__top-title"><a href="/donate">Join Hands &<br> Make a Difference</a></h3>
                             </div>
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                             </div>
                             <div class="accrodion-content">
                                 <div class="inner">
-                                    <p>Yes! We welcome volunteers for outreach programs, fundraising, and community initiatives. Visit our "Get Involved" page to sign up.</p>
+                                    <p>Yes! We welcome volunteers for outreach programs, fundraising, and community initiatives. Visit our "Partner with us" page to Learn more.</p>
                                 </div>
                             </div>
                         </div>
